@@ -1,0 +1,11 @@
+{
+    "client_id": "admin",
+    "bootstrap_servers": "localhost:9092",
+    "topic": [
+        {
+            "name": "tutorial_topic",
+            "num_partitions": 1,
+            "replication_factor": 1
+        }
+    ]
+}
